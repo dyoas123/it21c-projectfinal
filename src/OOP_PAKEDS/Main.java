@@ -10,5 +10,10 @@ package OOP_PAKEDS;
  * @author admin
  */
 public class Main {
-    
+     public static void main(String []args){
+        Computer computer = new Computer ("ryzen 5",5.000);
+        
+        computer.showComputerName();
+        computer.showComputerPrice();
+     }
 }

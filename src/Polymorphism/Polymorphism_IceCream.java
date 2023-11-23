@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Encapsulation;
+package Polymorphism;
 
 /**
  *
  * @author admin
  */
-public class main {
+public class Polymorphism_IceCream {
     
 }

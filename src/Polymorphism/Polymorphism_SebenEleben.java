@@ -7,6 +7,10 @@ package Polymorphism;
 
 
 public class Polymorphism_SebenEleben {
+
+    final String name;
+
+    
     
     Polymorphism_SebenEleben(String name){
         this.name = name;

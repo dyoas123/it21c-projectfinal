@@ -14,7 +14,7 @@ public class Polymorphism_IceCream extends Polymorphism_SebenEleben{
     void tagak(){
         System.out.println(name + " na tagak");
     }
-public void dirty(){
+public void sebenelebenHumans(){
     System.out.println("hugaw na"+ name);
 }            
 }

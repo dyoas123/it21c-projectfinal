@@ -5,10 +5,16 @@
  */
 package Polymorphism;
 
-/**
- *
- * @author admin
- */
-public class Polymorphism_Junkfoods {
-    
+
+public class Polymorphism_Junkfoods extends Polymorphism_SebenEleben{
+    Polymorphism_Junkfoods(String name){
+        super(name);
+        
+    }
+    void migo(){
+        System.out.println(name + "na ngayo");
+    }
+    public void sebenelebenHumans(){
+        System.out.println("na ngayo si"+ name);
+    }
 }

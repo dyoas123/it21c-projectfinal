@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Polymorphism;
 
-/**
- *
- * @author admin
- */
+
 public class Main {
-    
+    public static void main (String []args){
+        Polymorphism_SebenEleben my_sebeneleben = new Polymorphism_SebenEleben("Guard");
+        Polymorphism_IceCream my_icecream = new Polymorphism_IceCream ("surbetes");
+        Polymorphism_Junkfoods my_junkfoods = new Polymorphism_Junkfoods("dyank pods");
+        
+        
+    }
+           
 }

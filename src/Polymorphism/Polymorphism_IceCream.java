@@ -5,10 +5,16 @@
  */
 package Polymorphism;
 
-/**
- *
- * @author admin
- */
-public class Polymorphism_IceCream {
-    
+
+public class Polymorphism_IceCream extends Polymorphism_SebenEleben{
+    Polymorphism_IceCream(String name){
+        super(name);
+        
+    }
+    void tagak(){
+        System.out.println(name + " na tagak");
+    }
+public void dirty(){
+    System.out.println("hugaw na"+ name);
+}            
 }
